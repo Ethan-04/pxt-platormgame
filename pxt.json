@@ -1,7 +1,8 @@
 {
     "name": "platormGame",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "color-coded-tilemap": "*"
     },
     "description": "",
     "files": [
