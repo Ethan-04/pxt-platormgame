@@ -7,6 +7,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.object, function (sprite, otherS
     Trampo.x += Math.randomRange(-70, 70)
     Trampo.y += Math.randomRange(-50, -60)
     Rocket.vy += -250
+    scene.cameraShake(3, 9999)
     info.startCountdown(10)
 })
 info.onCountdownEnd(function () {
